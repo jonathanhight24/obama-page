@@ -1,0 +1,35 @@
+
+
+
+
+<div class= "main">
+<div class= "home">
+<h1>Contact Us</h1>
+
+
+
+
+<% @array.each do |name| %>
+<b><%= name %></b><br>
+<% end -%>
+<p>contact us at (219)577-4008</p>
+<p>contact name-James Shepherd</p>
+<p>james@transactionexpert.com</p>
+</div>
+
+</div>
+
+
+<div class= "sidebar"> 
+	<ul>
+		<li><%= link_to 'About Us', pages_about_us_path, class: "links" %></li>
+		<li><%= link_to 'Contact Us', pages_contact_us_path, class: "links" %></li>
+		<li><%= link_to 'Products', pages_products_path, class: "links" %></li>
+        <li><%= link_to ' home page', pages_index_path, class: "links" %></li>
+
+	</ul>
+
+
+
+</div>
+
